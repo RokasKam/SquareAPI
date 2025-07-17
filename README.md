@@ -18,7 +18,7 @@ cd SquareAPI
 ### 2. Start with Docker
 This will build the API and start a PostgreSQL database automatically.
 ```sh
-docker-compose up --build
+docker compose up --build
 ```
 - API will be available at: `http://localhost:8080`
 - PostgreSQL will be available at: `localhost:5432` (user: `postgres`, password: `postgres`, db: `SquaresDatabase`)
