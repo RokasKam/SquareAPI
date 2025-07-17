@@ -1,6 +1,8 @@
 namespace SquareDomain.Exeptions;
 
-public class NotFoundExeption
+public class NotFoundException : Exception
 {
-    
+    public NotFoundException(string? message) : base(message)
+    {
+    }
 }

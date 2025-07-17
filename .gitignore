@@ -1,5 +1,37 @@
+# Build results
 bin/
 obj/
 /packages/
+
+# Rider/JetBrains
+.idea/
 riderModule.iml
-/_ReSharper.Caches/
+_ReSharper.Caches/
+
+# Visual Studio
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mac OS
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+.env
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+
+# Others
+*.swp
+*.tmp
+
+# Ignore migrations if needed
+# SquareInfrastructure/Migrations/

@@ -1,6 +1,9 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace SquareAPI.Controllers;
 
-public class BaseController
+[Route("api/[controller]")]
+[ApiController]
+public class BaseController : ControllerBase
 {
-    
 }
