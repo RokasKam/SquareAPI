@@ -19,8 +19,6 @@ _ReSharper.Caches/
 .DS_Store
 
 # Docker
-Dockerfile
-docker-compose.yml
 .env
 
 # Logs
@@ -32,6 +30,3 @@ TestResults/
 # Others
 *.swp
 *.tmp
-
-# Ignore migrations if needed
-# SquareInfrastructure/Migrations/
