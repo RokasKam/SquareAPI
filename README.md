@@ -5,7 +5,7 @@ A .NET 9 Web API for managing points and finding squares, with PostgreSQL databa
 ## Prerequisites
 - [Docker](https://www.docker.com/get-started)
 - [Git](https://git-scm.com/)
-- (Optional for local dev) [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+- (Optional for local dev and running tests) [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 
 ## Getting Started
 
@@ -51,11 +51,7 @@ All endpoints are prefixed with `/api/`.
 
 ## Running Tests
 
-You can run unit tests using the .NET CLI:
-```sh
-dotnet test SquareAPITest/SquareAPITest.csproj
-```
-Or run all tests in the solution:
+Navigate to the solution and run all tests in the solution:
 ```sh
 dotnet test
 ```
