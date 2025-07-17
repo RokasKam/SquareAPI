@@ -11,7 +11,7 @@ A .NET 9 Web API for managing points and finding squares, with PostgreSQL databa
 
 ### 1. Clone the Repository
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/RokasKam/SquareAPI
 cd SquareAPI
 ```
 
